@@ -1,0 +1,11 @@
+.Logo {
+    width: 80px!important;
+    height: 80px!important;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+    .Logo {
+        margin-left: 0;
+    }
+}
