@@ -22,10 +22,9 @@ const Header = () => {
     <Card style={{ display: "flex", flexDirection: "column" }}>
       <Grid container>
         <Grid item xs={12} sm={4} md={3}>
-          <CardMedia
-            image="/profile.jpg"
-            className={Styles.ProfileImage}
-          />
+          <div className={Styles.CardMediaContainer}>
+            <CardMedia image="/profile.jpg" className={Styles.ProfileImage} />
+          </div>
         </Grid>
         <Grid item xs={12} sm={8} md={9}>
           <CardContent>

@@ -1,9 +1,16 @@
+.CardMediaContainer {
+  width: 100%;
+  padding: 0 calc(56.25% / 2);
+  background-size: 100% 100%;
+  background: #555;
+}
+
 .ProfileImage {
-    padding-top: 62.5%;
+  padding-top: 150%;
+}
+
+@media only screen and (min-width: 600px) {
+  .CardMediaContainer {
+    padding: 0;
   }
-  @media only screen and (min-width: 600px) {
-    .ProfileImage {
-      padding-top: 125%;
-    }
-  }
-  
+}
