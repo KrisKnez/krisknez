@@ -1,0 +1,9 @@
+.ProfileImage {
+    padding-top: 62.5%;
+  }
+  @media only screen and (min-width: 600px) {
+    .ProfileImage {
+      padding-top: 125%;
+    }
+  }
+  
