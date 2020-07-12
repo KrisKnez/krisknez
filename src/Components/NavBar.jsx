@@ -9,6 +9,8 @@ import {
   Avatar,
 } from "@material-ui/core";
 
+import { Link } from "react-router-dom";
+
 import Styles from "./NavBar.module.css";
 
 const NavBar = () => {
@@ -34,14 +36,21 @@ const NavBar = () => {
                 alignItems: "center",
               }}
             >
-              <Button href="/" color="inherit">
-                Home
+              <Button color="inherit">
+                <Link
+                  to="/"
+                  style={{ textDecoration: "inherit", color: "inherit" }}
+                >
+                  Home
+                </Link>
               </Button>
-              <Button href="/projects" color="inherit">
-                Projects
-              </Button>
-              <Button href="/contact" color="inherit">
-                Contact
+              <Button color="inherit">
+                <Link
+                  to="/projects"
+                  style={{ textDecoration: "inherit", color: "inherit" }}
+                >
+                  Projects
+                </Link>
               </Button>
             </Grid>
           </Grid>
